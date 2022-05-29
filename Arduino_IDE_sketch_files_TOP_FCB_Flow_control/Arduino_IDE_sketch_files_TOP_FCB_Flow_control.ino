@@ -125,11 +125,11 @@ void loop() {
 //                                      &current_pump_position);    // Var for tracking position
 
   
-//   cont_flow_recirculation_vol_ctrl(6,                       // Avg. measurements
-//                                     &volume_pumped,           // pumped volume var
-//                                     100,                      // flow rate
-//                                     50,                       // volume to be pumped in µL
-//                                     &current_pump_position);  // Var for tracking position
+   cont_flow_recirculation_vol_ctrl(6,                       // Avg. measurements
+                                     &volume_pumped,           // pumped volume var
+                                     100,                      // flow rate
+                                     50,                       // volume to be pumped in µL
+                                     &current_pump_position);  // Var for tracking position
   
 
   //Step impulse
